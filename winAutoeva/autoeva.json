@@ -1,0 +1,143 @@
+{
+  "nombre": "Prueba de números",
+  "preguntas": [
+    {
+      "nro": 1,
+      "pregunta": "pregunta1",
+      "respuestas": [
+        {
+          "nro": 1,
+          "rta": "uno",
+          "correcta": false
+        },
+        {
+          "nro": 2,
+          "rta": "dos",
+          "correcta": true
+        },
+        {
+          "nro": 3,
+          "rta": "tres",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "nro": 1,
+      "pregunta": "pregunta1",
+      "respuestas": [
+        {
+          "nro": 1,
+          "rta": "uno",
+          "correcta": false
+        },
+        {
+          "nro": 2,
+          "rta": "dos",
+          "correcta": true
+        },
+        {
+          "nro": 3,
+          "rta": "tres",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "nro": 1,
+      "pregunta": "pregunta1",
+      "respuestas": [
+        {
+          "nro": 1,
+          "rta": "uno",
+          "correcta": false
+        },
+        {
+          "nro": 2,
+          "rta": "dos",
+          "correcta": true
+        },
+        {
+          "nro": 3,
+          "rta": "tres",
+          "correcta": false
+        }
+      ]
+    }
+  ],
+  "respuestas": [
+    {
+      "alumno": "pepe",
+      "respuestas": [
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        }
+      ]
+    },
+    {
+      "alumno": "Maria",
+      "respuestas": [
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        }
+      ]
+    },
+    {
+      "alumno": "Azamendi",
+      "respuestas": [
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        }
+      ]
+    },
+    {
+      "alumno": "Norberto",
+      "respuestas": [
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        }
+      ]
+    }
+
+
+
+
+  ]
+
+}

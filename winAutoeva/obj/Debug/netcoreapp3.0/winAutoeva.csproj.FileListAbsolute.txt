@@ -1,0 +1,13 @@
+C:\Users\akouv\autoeva\winAutoeva\obj\Debug\netcoreapp3.0\winAutoeva.csprojAssemblyReference.cache
+C:\Users\akouv\autoeva\winAutoeva\obj\Debug\netcoreapp3.0\winAutoeva.AssemblyInfoInputs.cache
+C:\Users\akouv\autoeva\winAutoeva\obj\Debug\netcoreapp3.0\winAutoeva.AssemblyInfo.cs
+C:\Users\akouv\autoeva\winAutoeva\bin\Debug\netcoreapp3.0\winAutoeva.exe
+C:\Users\akouv\autoeva\winAutoeva\bin\Debug\netcoreapp3.0\winAutoeva.deps.json
+C:\Users\akouv\autoeva\winAutoeva\bin\Debug\netcoreapp3.0\winAutoeva.runtimeconfig.json
+C:\Users\akouv\autoeva\winAutoeva\bin\Debug\netcoreapp3.0\winAutoeva.runtimeconfig.dev.json
+C:\Users\akouv\autoeva\winAutoeva\bin\Debug\netcoreapp3.0\winAutoeva.dll
+C:\Users\akouv\autoeva\winAutoeva\bin\Debug\netcoreapp3.0\winAutoeva.pdb
+C:\Users\akouv\autoeva\winAutoeva\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\akouv\autoeva\winAutoeva\obj\Debug\netcoreapp3.0\winAutoeva.csproj.CopyComplete
+C:\Users\akouv\autoeva\winAutoeva\obj\Debug\netcoreapp3.0\winAutoeva.dll
+C:\Users\akouv\autoeva\winAutoeva\obj\Debug\netcoreapp3.0\winAutoeva.pdb

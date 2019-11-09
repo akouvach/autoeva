@@ -1,0 +1,145 @@
+{
+  "nombre": "Prueba de números",
+  "preguntas": [
+    {
+      "nro": 1,
+      "enunciado": "pregunta1",
+      "respuestas": [
+        {
+          "nro": 1,
+          "Enunciado": "uno",
+          "correcta": false
+        },
+        {
+          "nro": 2,
+          "enunciado": "dos",
+          "correcta": true
+        },
+        {
+          "nro": 3,
+          "enunciado": "tres",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "nro": 2,
+      "enunciado": "pregunta1",
+      "respuestas": [
+        {
+          "nro": 1,
+          "enunciado": "uno",
+          "correcta": false
+        },
+        {
+          "nro": 2,
+          "enunciado": "dos",
+          "correcta": true
+        },
+        {
+          "nro": 3,
+          "enunciado": "tres",
+          "correcta": false
+        }
+      ]
+    },
+    {
+      "nro": 3,
+      "enunciado": "pregunta1",
+      "respuestas": [
+        {
+          "nro": 1,
+          "enunciado": "uno",
+          "correcta": false
+        },
+        {
+          "nro": 2,
+          "enunciado": "dos",
+          "correcta": true
+        },
+        {
+          "nro": 3,
+          "enunciado": "tres",
+          "correcta": false
+        }
+      ]
+    }
+  ],
+  "contestaciones": [
+    {
+      "alumno": "pepe",
+      "contestaciones": [
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        }
+      ]
+    },
+    {
+      "alumno": "Maria",
+      "contestaciones": [
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        }
+      ]
+    },
+    {
+      "alumno": "Azamendi",
+      "contestaciones": [
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        }
+      ]
+    },
+    {
+      "alumno": "Norberto",
+      "contestaciones": [
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        },
+        {
+          "pregunta": 1,
+          "respuesta": 1
+        }
+      ]
+    }
+  ],
+  "alumnos":[
+	{"nombre":"Juan", "apellido":"Gonzalez"},
+	{"nombre":"Maria", "apellido":"Aguirre"},
+	{"nombre":"Julia", "apellido":"Zandoval"},
+	{"nombre":"Edilberto", "apellido":"Rossi"}
+
+  ]
+}

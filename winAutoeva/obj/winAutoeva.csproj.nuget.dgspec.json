@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\akouv\\auoeva\\winAutoeva\\winAutoeva.csproj": {}
+    "C:\\Users\\akouv\\autoeva\\winAutoeva\\winAutoeva.csproj": {}
   },
   "projects": {
-    "C:\\Users\\akouv\\auoeva\\winAutoeva\\winAutoeva.csproj": {
+    "C:\\Users\\akouv\\autoeva\\winAutoeva\\winAutoeva.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akouv\\auoeva\\winAutoeva\\winAutoeva.csproj",
+        "projectUniqueName": "C:\\Users\\akouv\\autoeva\\winAutoeva\\winAutoeva.csproj",
         "projectName": "winAutoeva",
-        "projectPath": "C:\\Users\\akouv\\auoeva\\winAutoeva\\winAutoeva.csproj",
+        "projectPath": "C:\\Users\\akouv\\autoeva\\winAutoeva\\winAutoeva.csproj",
         "packagesPath": "C:\\Users\\akouv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akouv\\auoeva\\winAutoeva\\obj\\",
+        "outputPath": "C:\\Users\\akouv\\autoeva\\winAutoeva\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
