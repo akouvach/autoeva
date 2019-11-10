@@ -1,9 +1,9 @@
 {
-  "nombre": "Prueba de números",
+  "nombre": "Prueba de numeros",
   "preguntas": [
     {
       "nro": 1,
-      "enunciado": "pregunta1",
+      "enunciado": "pregunta 1",
       "respuestas": [
         {
           "nro": 1,
@@ -16,6 +16,16 @@
           "correcta": true
         },
         {
+          "nro": 4,
+          "enunciado": "cuatro",
+          "correcta": true
+        },
+        {
+          "nro": 5,
+          "enunciado": "cinco",
+          "correcta": true
+        },
+        {
           "nro": 3,
           "enunciado": "tres",
           "correcta": false
@@ -24,7 +34,7 @@
     },
     {
       "nro": 2,
-      "enunciado": "pregunta1",
+      "enunciado": "pregunta 2",
       "respuestas": [
         {
           "nro": 1,
@@ -45,7 +55,7 @@
     },
     {
       "nro": 3,
-      "enunciado": "pregunta1",
+      "enunciado": "pregunta  3",
       "respuestas": [
         {
           "nro": 1,
@@ -60,6 +70,11 @@
         {
           "nro": 3,
           "enunciado": "tres",
+          "correcta": false
+        },
+        {
+          "nro": 4,
+          "enunciado": "cuatro",
           "correcta": false
         }
       ]

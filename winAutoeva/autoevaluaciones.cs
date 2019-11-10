@@ -56,9 +56,10 @@ namespace winAutoeva.Autoevaluaciones
     class Autoevaluacion
     {
 
+
         public String Nombre { get; set; }
         public List<Pregunta> Preguntas { get; set; }
-        //public List<Contestacion> Contestaciones { get; set; }
+        public List<Contestacion> Contestaciones { get; set; } = new List<Contestacion>();
 
         public List<Alumno> Alumnos { get; set; }
 
