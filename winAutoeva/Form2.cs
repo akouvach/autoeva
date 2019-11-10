@@ -191,7 +191,7 @@ namespace winAutoeva
 
                 foreach (ContestacionDetalle cd in this.miAutoeva.Contestaciones[0].Contestaciones) {
 
-                    if (cd.Pregunta==this.preguntaActual) {
+                    if (cd.Pregunta== this.miAutoeva.Preguntas[this.preguntaActual].Nro) {
                         // estoy en la pregunta que quiero mostrar
                         if (cd.Respuesta == r.Nro) {
                             seleccionado = true;
