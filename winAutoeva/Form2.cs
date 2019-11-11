@@ -251,7 +251,18 @@ namespace winAutoeva
 
             try {
 
-                using (StreamWriter file = File.CreateText(miAutoeva.Contestaciones[0].Alumno + ".json"))
+                DateTime hoy = DateTime.Now;
+
+                String archivo = miAutoeva.Contestaciones[0].Alumno.Replace(", ", "_") +
+                    "_" +
+                    hoy.Year.ToString() + "_" + 
+                    hoy.Month.ToString() + "_" +
+                    hoy.Day.ToString() + "_" +
+                    hoy.Hour.ToString() + "_" + 
+                    hoy.Minute.ToString() + "_" +
+                    hoy.Second.ToString() +
+                    ".json";
+                using (StreamWriter file = File.CreateText(archivo))
                 {
                     JsonSerializer serializer = new JsonSerializer();
                     //serialize object directly into file stream
