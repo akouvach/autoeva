@@ -59,8 +59,6 @@ namespace winAutoeva
             c.Alumno = this.cmb_alumnos.Text;
             c.Contestaciones = new List<ContestacionDetalle>();
 
-            Boolean primero = true;
-
             foreach (Pregunta p in this.miAutoeva.Preguntas) {
 
                
@@ -78,7 +76,7 @@ namespace winAutoeva
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.lbl_mensajes.Visible = false;
+            this.lbl_mensajes.Visible = true;
 
             if (this.cmb_alumnos.Text != "")
             {
@@ -203,6 +201,24 @@ namespace winAutoeva
                 radio.Name = prefijo + "enunciado_radio" ;
                 radio.Checked = seleccionado;
                 radio.Location = new Point(y, x);
+                radio.Tag = r.Nro;
+                radio.CheckedChanged += (Object s, EventArgs e) =>
+                {
+                    RadioButton r = (RadioButton) s;
+
+                    this.lbl_mensajes.Text = r.Tag.ToString();
+
+                    // voy a actualizar el valor de la respuesta
+                    foreach (ContestacionDetalle cd in miAutoeva.Contestaciones[0].Contestaciones) {
+                        if (cd.Pregunta == this.miAutoeva.Preguntas[this.preguntaActual].Nro) {
+
+                            //Estoy en la pregunta a modificar
+                            cd.Respuesta = int.Parse(r.Tag.ToString());
+                        }
+
+                    }
+
+                };
 
 
 
@@ -231,13 +247,35 @@ namespace winAutoeva
             this.cargarPregunta();
         }
 
-        private void almacenarResultados() { 
-        
+        private void almacenarResultados() {
+
+            try {
+
+                using (StreamWriter file = File.CreateText(miAutoeva.Contestaciones[0].Alumno + ".json"))
+                {
+                    JsonSerializer serializer = new JsonSerializer();
+                    //serialize object directly into file stream
+                    serializer.Serialize(file, miAutoeva.Contestaciones[0]);
+                }
+
+                this.lbl_mensajes.Text = miAutoeva.Contestaciones[0].ToString();
+
+            }
+            catch (Exception e)
+            {
+                this.lbl_mensajes.Text = e.ToString();
+            }
+
         }
         private void btn_fin_Click(object sender, EventArgs e)
         {
             this.almacenarResultados();
             this.Close();
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            this.lbl_mensajes.Text = sender.ToString();
         }
     }
 }
